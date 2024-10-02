@@ -3,11 +3,14 @@ body {
   background-color: #1e1e1e;
   font-family: 'Inter';
   font-weight: 400;
+  font-size: 100%;
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   margin: 0;
   padding: 0;
+  font-weight: 400;
+  font-size: 100%;
 }
 
 a {
@@ -37,41 +40,41 @@ a {
   justify-content: space-between;
 }
 
-.header_logo {
+.header__logo {
   padding: 0;
   margin: 0;
 }
 
-.header_logo-image {
+.header__logo-image {
   width: 78.45px;
   height: 15.43px;
 }
 
-.header_menu {
+.header__menu {
   display: block;
   padding: 0;
   margin: 0;
 }
 
-.header_menu-list {
+.header__menu-list {
   display: flex;
   flex-direction: column;
   gap:12px;
   list-style: none;
 }
 
-.header_menu-item {
+.header__menu-item {
   line-height: 19px;
   text-decoration: underline;
 }
 
-.header_menu-item_active {
+.header__menu-item_active {
   text-decoration: none;
 }
 
-.header_menu-link,
-.header_menu-link:visited,
-.header_menu-link:active {
+.header__menu-link,
+.header__menu-link:visited,
+.header__menu-link:active {
   font-size: 16px;
   color:#f5f5f5
 }
@@ -84,7 +87,7 @@ a {
   padding: 0;
 }
 
-.cover_title {
+.cover__title {
   font-size: 72px;
   margin: 0 20px;
   font-weight: 400;
@@ -106,10 +109,10 @@ a {
 }
 
 .intro {
-  padding: 24px 20px 0 20px;
+  padding: 24px 20px 24px 20px;
 }
 
-.intro_heading {
+.intro__heading {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -144,6 +147,40 @@ a {
 
 .reasons {
   padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap:32px;
+}
+
+.content-section__subtitle {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 115%;
+  color: #131313;
+}
+
+.content-section__introduction {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.content-section__list {
+  display: flex;
+  flex-direction: column;
+  gap:12px;
+  padding-left: 10px;
+  line-height: 22px;
+  font-size: 16px;
+}
+
+.content-section__list-item {
+  font-size: 400;
+}
+
+.content-section__list-accent {
+  font-weight: 700;
 }
 
 .how-to {
