@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background-color: #1e1e1e;
-  font-family: Inter;
+  font-family: 'Inter';
   font-weight: 400;
 }
 
@@ -48,6 +48,7 @@ a {
 }
 
 .header_menu {
+  display: block;
   padding: 0;
   margin: 0;
 }
@@ -105,7 +106,40 @@ a {
 }
 
 .intro {
-  padding-top: 24px;
+  padding: 24px 20px 0 20px;
+}
+
+.intro_heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  align-items: flex-start;
+  color:#ccc;
+  font-size: 16px;
+  line-height: 120%;
+}
+
+.intro__title {
+  margin-right: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0;
+}
+
+.intro__date {
+  text-wrap: nowrap;
+  font-size: 16px;
+  line-height: 120%;
+}
+
+.intro__main-text {
+  margin-top:24px;
+  font-size: 16px;
+  line-height: 22px;
+  display:flex;
+  gap:24px;
+  flex-direction: column;
 }
 
 .reasons {
