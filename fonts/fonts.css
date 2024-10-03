@@ -1,12 +1,31 @@
-@import url(./interbold.ttf);
-@import url(./interbold.woff);
-@import url(./interbold.woff2);
-@import url(./interregular.ttf);
-@import url(./interregular.woff);
-@import url(./interregular.woff2);
-@import url(ebgaramondmedium.ttf);
-@import url(ebgaramondmedium.woff);
-@import url(ebgaramondmedium.woff2);
-@import url(ebgaramondregular.ttf);
-@import url(ebgaramondregular.woff);
-@import url(ebgaramondregular.woff2);
+@font-face {
+  src: url(./interbold.ttf) format("ttf"),
+  url(./interbold.woff) format("woff"),
+  url(./interbold.woff2) format("woff2");
+  font-family: "Inter";
+  font-weight: 700;
+}
+
+@font-face {
+  src: url(./interregular.ttf) format("ttf"),
+  url(./interregular.woff) format("woff"),
+  url(./interregular.woff2) format("woff2");
+  font-family: "Inter";
+  font-weight: 400;
+}
+
+@font-face {
+  src: url(./ebgaramondmedium.ttf) format("ttf"),
+  url(./ebgaramondmedium.woff) format("woff"),
+  url(./ebgaramondmedium.woff2) format("woff2");
+  font-family: "EB Garamond";
+  font-weight: 500;
+}
+
+@font-face {
+  src: url(./ebgaramondregular.ttf) format("ttf"),
+  url(./ebgaramondregular.woff) format("woff"),
+  url(./ebgaramondregular.woff2) format("woff2");
+  font-family: "EB Garamond";
+  font-weight: 400;
+}
