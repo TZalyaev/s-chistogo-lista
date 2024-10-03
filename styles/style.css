@@ -8,7 +8,7 @@ body {
   background-color: #1e1e1e;
   font-family: "Inter";
   font-weight: 400;
-  font-size: 100%;
+  font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
@@ -51,11 +51,10 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   flex-direction: column;
   gap: 16px;
   padding-left: 15.3px;
-  line-height: 21.6px;
 }
 
 .content-section__list-item {
-  font-weight: 400;
+  line-height: 135%;
 }
 
 .content-section__list-accent {
@@ -115,9 +114,9 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 .cover__title {
   font-size: 72px;
   margin: 0 10px;
-  font-weight: 400;
   font-family: "EB Garamond";
   line-height: 100%;
+  font-weight: 400;
 }
 
 .accent-span {
@@ -134,7 +133,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 /*INTRO SECTION*/
 .intro {
-  padding: 24px 20px 36px 20px;
+  padding: 24px 20px 37px 20px;
 }
 
 .intro__heading {
@@ -150,21 +149,17 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .intro__title {
   margin-right: 20px;
-  font-weight: 400;
   font-size: 16px;
-  letter-spacing: 0;
+  font-weight: 400;
 }
 
 .intro__date {
   text-wrap: nowrap;
-  font-size: 16px;
-  line-height: 120%;
 }
 
 .intro__main-text {
   margin-top: 24px;
-  font-size: 16px;
-  line-height: 21.6px;
+  line-height: 135%;
   display: flex;
   gap: 24px;
   flex-direction: column;
@@ -246,7 +241,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .card__text {
-  line-height: 21.6px;
+  line-height: 135%;
 }
 
 /*FOOTER SECTION*/
